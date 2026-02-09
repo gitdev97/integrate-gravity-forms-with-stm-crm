@@ -2,12 +2,13 @@
 /*
 Plugin Name: Integrate Gravity Forms with STM Corporate CRM System
 Version: 1.0
-Description: Extends the Gravity Forms plugin - collecting leads.
+Description: Enhances Gravity Forms by syncing form submissions directly to STM Corporate CRM with flexible field mapping and secure API communication
 Author: Suren Dadoyan
 Text Domain: integrate-gravity-forms-with-stm-crm
 */
 
 add_action('init', array('GravityFormsStmCrmIntegration', 'init'));
+
 class GravityFormsStmCrmIntegration{
 
     private $_user_name;
